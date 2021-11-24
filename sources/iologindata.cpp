@@ -264,22 +264,21 @@ bool IOLoginData::accountNameExists(const std::string& name)
 	return true;
 }
 
-bool IOLoginData::getPassword(uint32_t accountId, std::string& password, std::string& salt, std::string name/* = ""*/)
+bool IOLoginData::getPassword(uint32_t accountId, std::string& password, std::string name/* = ""*/)
 {
 	Database* db = Database::getInstance();
 	DBQuery query;
-	query << "SELECT `password`, `salt` FROM `accounts` WHERE `id` = " << accountId << " LIMIT 1";
+	query << "SELECT `password` FROM `accounts` WHERE `id` = " << accountId << " LIMIT 1";
 
 	DBResult* result;
 	if(!(result = db->storeQuery(query.str())))
 		return false;
 
-	std::string tmpPassword = result->getDataString("password"), tmpSalt = result->getDataString("salt");
+	std::string tmpPassword = result->getDataString("password");
 	result->free();
 	if(name.empty() || name == "Account Manager")
 	{
 		password = tmpPassword;
-		salt = tmpSalt;
 		return true;
 	}
 
@@ -294,7 +293,6 @@ bool IOLoginData::getPassword(uint32_t accountId, std::string& password, std::st
 			continue;
 
 		password = tmpPassword;
-		salt = tmpSalt;
 
 		result->free();
 		return true;
@@ -306,18 +304,12 @@ bool IOLoginData::getPassword(uint32_t accountId, std::string& password, std::st
 
 bool IOLoginData::setPassword(uint32_t accountId, std::string newPassword)
 {
-	std::string salt;
-	if(g_config.getBool(ConfigManager::GENERATE_ACCOUNT_SALT))
-	{
-		salt = generateRecoveryKey(2, 19, true);
-		newPassword = salt + newPassword;
-	}
 
 	Database* db = Database::getInstance();
 	DBQuery query;
 
 	_encrypt(newPassword, false);
-	query << "UPDATE `accounts` SET `password` = " << db->escapeString(newPassword) << ", `salt` = "<< db->escapeString(salt) << " WHERE `id` = " << accountId << db->getUpdateLimiter();
+	query << "UPDATE `accounts` SET `password` = " << db->escapeString(newPassword) << " WHERE `id` = " << accountId << db->getUpdateLimiter();
 	return db->query(query.str());
 }
 
@@ -350,7 +342,6 @@ bool IOLoginData::setRecoveryKey(uint32_t accountId, std::string newRecoveryKey)
 
 uint64_t IOLoginData::createAccount(std::string name, std::string password)
 {
-	std::string salt = generateRecoveryKey(2, 19, true);
 	password = password;
 	_encrypt(password, false);
 

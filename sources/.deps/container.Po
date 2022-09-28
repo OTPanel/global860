@@ -957,12 +957,12 @@ container.o: container.cpp otpch.h \
  tile.h spawn.h monster.h monsters.h creature.h condition.h \
  creatureevent.h player.h depot.h outfit.h vocation.h group.h \
  protocolgame.h protocol.h ioguild.h party.h npc.h iomap.h status.h \
- house.h /usr/include/c++/4.6/tr1/unordered_set \
- /usr/include/c++/4.6/tr1/type_traits \
- /usr/include/c++/4.6/tr1/functional_hash.h \
- /usr/include/c++/4.6/tr1/hashtable.h \
- /usr/include/c++/4.6/tr1/hashtable_policy.h \
- /usr/include/c++/4.6/tr1/unordered_set.h housetile.h
+ house.h /usr/include/c++/4.6/unordered_set \
+ /usr/include/c++/4.6/type_traits \
+ /usr/include/c++/4.6/functional_hash.h \
+ /usr/include/c++/4.6/hashtable.h \
+ /usr/include/c++/4.6/hashtable_policy.h \
+ /usr/include/c++/4.6/unordered_set.h housetile.h
 
 otpch.h:
 
@@ -3184,16 +3184,16 @@ status.h:
 
 house.h:
 
-/usr/include/c++/4.6/tr1/unordered_set:
+/usr/include/c++/4.6/unordered_set:
 
-/usr/include/c++/4.6/tr1/type_traits:
+/usr/include/c++/4.6/type_traits:
 
-/usr/include/c++/4.6/tr1/functional_hash.h:
+/usr/include/c++/4.6/functional_hash.h:
 
-/usr/include/c++/4.6/tr1/hashtable.h:
+/usr/include/c++/4.6/hashtable.h:
 
-/usr/include/c++/4.6/tr1/hashtable_policy.h:
+/usr/include/c++/4.6/hashtable_policy.h:
 
-/usr/include/c++/4.6/tr1/unordered_set.h:
+/usr/include/c++/4.6/unordered_set.h:
 
 housetile.h:

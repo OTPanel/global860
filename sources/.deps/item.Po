@@ -953,12 +953,12 @@ item.o: item.cpp otpch.h /usr/include/libxml2/libxml/xmlmemory.h \
  /usr/include/boost/iterator/detail/minimum_category.hpp \
  /usr/include/boost/token_functions.hpp container.h cylinder.h depot.h \
  teleport.h tile.h trashholder.h mailbox.h combat.h condition.h map.h \
- waypoints.h house.h /usr/include/c++/4.6/tr1/unordered_set \
- /usr/include/c++/4.6/tr1/type_traits \
- /usr/include/c++/4.6/tr1/functional_hash.h \
- /usr/include/c++/4.6/tr1/hashtable.h \
- /usr/include/c++/4.6/tr1/hashtable_policy.h \
- /usr/include/c++/4.6/tr1/unordered_set.h housetile.h player.h creature.h \
+ waypoints.h house.h /usr/include/c++/4.6/unordered_set \
+ /usr/include/c++/4.6/type_traits \
+ /usr/include/c++/4.6/functional_hash.h \
+ /usr/include/c++/4.6/hashtable.h \
+ /usr/include/c++/4.6/hashtable_policy.h \
+ /usr/include/c++/4.6/unordered_set.h housetile.h player.h creature.h \
  templates.h creatureevent.h outfit.h vocation.h group.h protocolgame.h \
  protocol.h connection.h networkmessage.h ioguild.h party.h npc.h beds.h \
  actions.h game.h server.h scheduler.h dispatcher.h spawn.h monster.h \
@@ -3146,17 +3146,17 @@ waypoints.h:
 
 house.h:
 
-/usr/include/c++/4.6/tr1/unordered_set:
+/usr/include/c++/4.6/unordered_set:
 
-/usr/include/c++/4.6/tr1/type_traits:
+/usr/include/c++/4.6/type_traits:
 
-/usr/include/c++/4.6/tr1/functional_hash.h:
+/usr/include/c++/4.6/functional_hash.h:
 
-/usr/include/c++/4.6/tr1/hashtable.h:
+/usr/include/c++/4.6/hashtable.h:
 
-/usr/include/c++/4.6/tr1/hashtable_policy.h:
+/usr/include/c++/4.6/hashtable_policy.h:
 
-/usr/include/c++/4.6/tr1/unordered_set.h:
+/usr/include/c++/4.6/unordered_set.h:
 
 housetile.h:
 

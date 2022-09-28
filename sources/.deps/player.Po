@@ -957,12 +957,12 @@ player.o: player.cpp otpch.h /usr/include/libxml2/libxml/xmlmemory.h \
  vocation.h group.h protocolgame.h protocol.h connection.h \
  networkmessage.h ioguild.h party.h npc.h manager.h textlogger.h \
  iologindata.h account.h ioban.h town.h house.h \
- /usr/include/c++/4.6/tr1/unordered_set \
- /usr/include/c++/4.6/tr1/type_traits \
- /usr/include/c++/4.6/tr1/functional_hash.h \
- /usr/include/c++/4.6/tr1/hashtable.h \
- /usr/include/c++/4.6/tr1/hashtable_policy.h \
- /usr/include/c++/4.6/tr1/unordered_set.h housetile.h beds.h quests.h \
+ /usr/include/c++/4.6/unordered_set \
+ /usr/include/c++/4.6/type_traits \
+ /usr/include/c++/4.6/functional_hash.h \
+ /usr/include/c++/4.6/hashtable.h \
+ /usr/include/c++/4.6/hashtable_policy.h \
+ /usr/include/c++/4.6/unordered_set.h housetile.h beds.h quests.h \
  combat.h movement.h weapons.h game.h server.h scheduler.h dispatcher.h \
  spawn.h monster.h monsters.h chat.h /usr/include/c++/4.6/fstream \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/basic_file.h \
@@ -3183,17 +3183,17 @@ town.h:
 
 house.h:
 
-/usr/include/c++/4.6/tr1/unordered_set:
+/usr/include/c++/4.6/unordered_set:
 
-/usr/include/c++/4.6/tr1/type_traits:
+/usr/include/c++/4.6/type_traits:
 
-/usr/include/c++/4.6/tr1/functional_hash.h:
+/usr/include/c++/4.6/functional_hash.h:
 
-/usr/include/c++/4.6/tr1/hashtable.h:
+/usr/include/c++/4.6/hashtable.h:
 
-/usr/include/c++/4.6/tr1/hashtable_policy.h:
+/usr/include/c++/4.6/hashtable_policy.h:
 
-/usr/include/c++/4.6/tr1/unordered_set.h:
+/usr/include/c++/4.6/unordered_set.h:
 
 housetile.h:
 

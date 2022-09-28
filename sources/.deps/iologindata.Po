@@ -956,12 +956,12 @@ iologindata.o: iologindata.cpp otpch.h \
  baseevents.h condition.h creatureevent.h player.h container.h depot.h \
  outfit.h vocation.h group.h protocolgame.h protocol.h connection.h \
  networkmessage.h ioguild.h party.h npc.h account.h town.h house.h \
- /usr/include/c++/4.6/tr1/unordered_set \
- /usr/include/c++/4.6/tr1/type_traits \
- /usr/include/c++/4.6/tr1/functional_hash.h \
- /usr/include/c++/4.6/tr1/hashtable.h \
- /usr/include/c++/4.6/tr1/hashtable_policy.h \
- /usr/include/c++/4.6/tr1/unordered_set.h housetile.h game.h server.h \
+ /usr/include/c++/4.6/unordered_set \
+ /usr/include/c++/4.6/type_traits \
+ /usr/include/c++/4.6/functional_hash.h \
+ /usr/include/c++/4.6/hashtable.h \
+ /usr/include/c++/4.6/hashtable_policy.h \
+ /usr/include/c++/4.6/unordered_set.h housetile.h game.h server.h \
  scheduler.h dispatcher.h spawn.h monster.h monsters.h
 
 otpch.h:
@@ -3172,17 +3172,17 @@ town.h:
 
 house.h:
 
-/usr/include/c++/4.6/tr1/unordered_set:
+/usr/include/c++/4.6/unordered_set:
 
-/usr/include/c++/4.6/tr1/type_traits:
+/usr/include/c++/4.6/type_traits:
 
-/usr/include/c++/4.6/tr1/functional_hash.h:
+/usr/include/c++/4.6/functional_hash.h:
 
-/usr/include/c++/4.6/tr1/hashtable.h:
+/usr/include/c++/4.6/hashtable.h:
 
-/usr/include/c++/4.6/tr1/hashtable_policy.h:
+/usr/include/c++/4.6/hashtable_policy.h:
 
-/usr/include/c++/4.6/tr1/unordered_set.h:
+/usr/include/c++/4.6/unordered_set.h:
 
 housetile.h:
 

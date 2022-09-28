@@ -956,12 +956,12 @@ talkaction.o: talkaction.cpp otpch.h \
  baseevents.h condition.h creatureevent.h container.h depot.h outfit.h \
  vocation.h group.h protocolgame.h protocol.h connection.h \
  networkmessage.h ioguild.h party.h npc.h iologindata.h account.h ioban.h \
- house.h /usr/include/c++/4.6/tr1/unordered_set \
- /usr/include/c++/4.6/tr1/type_traits \
- /usr/include/c++/4.6/tr1/functional_hash.h \
- /usr/include/c++/4.6/tr1/hashtable.h \
- /usr/include/c++/4.6/tr1/hashtable_policy.h \
- /usr/include/c++/4.6/tr1/unordered_set.h housetile.h town.h teleport.h \
+ house.h /usr/include/c++/4.6/unordered_set \
+ /usr/include/c++/4.6/type_traits \
+ /usr/include/c++/4.6/functional_hash.h \
+ /usr/include/c++/4.6/hashtable.h \
+ /usr/include/c++/4.6/hashtable_policy.h \
+ /usr/include/c++/4.6/unordered_set.h housetile.h town.h teleport.h \
  status.h textlogger.h outputmessage.h admin.h manager.h protocollogin.h \
  protocolold.h game.h server.h scheduler.h dispatcher.h spawn.h monster.h \
  monsters.h chat.h /usr/include/c++/4.6/fstream \
@@ -3179,17 +3179,17 @@ ioban.h:
 
 house.h:
 
-/usr/include/c++/4.6/tr1/unordered_set:
+/usr/include/c++/4.6/unordered_set:
 
-/usr/include/c++/4.6/tr1/type_traits:
+/usr/include/c++/4.6/type_traits:
 
-/usr/include/c++/4.6/tr1/functional_hash.h:
+/usr/include/c++/4.6/functional_hash.h:
 
-/usr/include/c++/4.6/tr1/hashtable.h:
+/usr/include/c++/4.6/hashtable.h:
 
-/usr/include/c++/4.6/tr1/hashtable_policy.h:
+/usr/include/c++/4.6/hashtable_policy.h:
 
-/usr/include/c++/4.6/tr1/unordered_set.h:
+/usr/include/c++/4.6/unordered_set.h:
 
 housetile.h:
 

@@ -960,12 +960,12 @@ game.o: game.cpp otpch.h /usr/include/libxml2/libxml/xmlmemory.h \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/basic_file.h \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/c++io.h \
  /usr/include/c++/4.6/bits/fstream.tcc combat.h iologindata.h account.h \
- ioban.h trashholder.h house.h /usr/include/c++/4.6/tr1/unordered_set \
- /usr/include/c++/4.6/tr1/type_traits \
- /usr/include/c++/4.6/tr1/functional_hash.h \
- /usr/include/c++/4.6/tr1/hashtable.h \
- /usr/include/c++/4.6/tr1/hashtable_policy.h \
- /usr/include/c++/4.6/tr1/unordered_set.h housetile.h quests.h actions.h \
+ ioban.h trashholder.h house.h /usr/include/c++/4.6/unordered_set \
+ /usr/include/c++/4.6/type_traits \
+ /usr/include/c++/4.6/functional_hash.h \
+ /usr/include/c++/4.6/hashtable.h \
+ /usr/include/c++/4.6/hashtable_policy.h \
+ /usr/include/c++/4.6/unordered_set.h housetile.h quests.h actions.h \
  globalevent.h movement.h scriptmanager.h spells.h talkaction.h weapons.h \
  textlogger.h
 
@@ -3205,17 +3205,17 @@ trashholder.h:
 
 house.h:
 
-/usr/include/c++/4.6/tr1/unordered_set:
+/usr/include/c++/4.6/unordered_set:
 
-/usr/include/c++/4.6/tr1/type_traits:
+/usr/include/c++/4.6/type_traits:
 
-/usr/include/c++/4.6/tr1/functional_hash.h:
+/usr/include/c++/4.6/functional_hash.h:
 
-/usr/include/c++/4.6/tr1/hashtable.h:
+/usr/include/c++/4.6/hashtable.h:
 
-/usr/include/c++/4.6/tr1/hashtable_policy.h:
+/usr/include/c++/4.6/hashtable_policy.h:
 
-/usr/include/c++/4.6/tr1/unordered_set.h:
+/usr/include/c++/4.6/unordered_set.h:
 
 housetile.h:
 

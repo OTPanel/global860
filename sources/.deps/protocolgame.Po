@@ -956,12 +956,12 @@ protocolgame.o: protocolgame.cpp otpch.h \
  baseevents.h condition.h creatureevent.h textlogger.h waitlist.h \
  player.h container.h depot.h outfit.h vocation.h group.h ioguild.h \
  party.h npc.h outputmessage.h iologindata.h account.h ioban.h house.h \
- /usr/include/c++/4.6/tr1/unordered_set \
- /usr/include/c++/4.6/tr1/type_traits \
- /usr/include/c++/4.6/tr1/functional_hash.h \
- /usr/include/c++/4.6/tr1/hashtable.h \
- /usr/include/c++/4.6/tr1/hashtable_policy.h \
- /usr/include/c++/4.6/tr1/unordered_set.h housetile.h actions.h quests.h \
+ /usr/include/c++/4.6/unordered_set \
+ /usr/include/c++/4.6/type_traits \
+ /usr/include/c++/4.6/functional_hash.h \
+ /usr/include/c++/4.6/hashtable.h \
+ /usr/include/c++/4.6/hashtable_policy.h \
+ /usr/include/c++/4.6/unordered_set.h housetile.h actions.h quests.h \
  chat.h /usr/include/c++/4.6/fstream \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/basic_file.h \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/c++io.h \
@@ -3182,17 +3182,17 @@ ioban.h:
 
 house.h:
 
-/usr/include/c++/4.6/tr1/unordered_set:
+/usr/include/c++/4.6/unordered_set:
 
-/usr/include/c++/4.6/tr1/type_traits:
+/usr/include/c++/4.6/type_traits:
 
-/usr/include/c++/4.6/tr1/functional_hash.h:
+/usr/include/c++/4.6/functional_hash.h:
 
-/usr/include/c++/4.6/tr1/hashtable.h:
+/usr/include/c++/4.6/hashtable.h:
 
-/usr/include/c++/4.6/tr1/hashtable_policy.h:
+/usr/include/c++/4.6/hashtable_policy.h:
 
-/usr/include/c++/4.6/tr1/unordered_set.h:
+/usr/include/c++/4.6/unordered_set.h:
 
 housetile.h:
 

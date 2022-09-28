@@ -936,8 +936,13 @@ bool ScriptEvent::configureRaidEvent(xmlNodePtr eventNode)
 		return false;
 
 	std::string scriptsName = Raids::getInstance()->getScriptBaseName();
-	if(!m_interface.loadDirectory(getFilePath(FILE_TYPE_OTHER, std::string(scriptsName + "/lib/"))))
-		std::clog << "[Warning - ScriptEvent::configureRaidEvent] Cannot load " << scriptsName << "/lib/" << std::endl;
+	if(!m_interface.getState())
+	{
+		m_interface.initState();
+		std::string path = getFilePath(FILE_TYPE_OTHER, std::string(scriptsName + "/lib/"));
+		if(!m_interface.loadDirectory(path, false, true))
+			std::clog << "[Warning - ScriptEvent::configureRaidEvent] Cannot load " << path << std::endl;
+	}
 
 	std::string strValue;
 	if(readXMLString(eventNode, "file", strValue))

@@ -969,12 +969,12 @@ luascript.o: luascript.cpp otpch.h \
  baseevents.h condition.h creatureevent.h container.h depot.h outfit.h \
  vocation.h group.h protocolgame.h protocol.h connection.h \
  networkmessage.h ioguild.h party.h npc.h teleport.h beds.h town.h \
- house.h /usr/include/c++/4.6/tr1/unordered_set \
- /usr/include/c++/4.6/tr1/type_traits \
- /usr/include/c++/4.6/tr1/functional_hash.h \
- /usr/include/c++/4.6/tr1/hashtable.h \
- /usr/include/c++/4.6/tr1/hashtable_policy.h \
- /usr/include/c++/4.6/tr1/unordered_set.h housetile.h databasemanager.h \
+ house.h /usr/include/c++/4.6/unordered_set \
+ /usr/include/c++/4.6/type_traits \
+ /usr/include/c++/4.6/functional_hash.h \
+ /usr/include/c++/4.6/hashtable.h \
+ /usr/include/c++/4.6/hashtable_policy.h \
+ /usr/include/c++/4.6/unordered_set.h housetile.h databasemanager.h \
  iologindata.h account.h ioban.h iomap.h status.h spawn.h monster.h \
  monsters.h iomapserialize.h movement.h spells.h actions.h talkaction.h \
  combat.h game.h server.h scheduler.h dispatcher.h chat.h \
@@ -3223,17 +3223,17 @@ town.h:
 
 house.h:
 
-/usr/include/c++/4.6/tr1/unordered_set:
+/usr/include/c++/4.6/unordered_set:
 
-/usr/include/c++/4.6/tr1/type_traits:
+/usr/include/c++/4.6/type_traits:
 
-/usr/include/c++/4.6/tr1/functional_hash.h:
+/usr/include/c++/4.6/functional_hash.h:
 
-/usr/include/c++/4.6/tr1/hashtable.h:
+/usr/include/c++/4.6/hashtable.h:
 
-/usr/include/c++/4.6/tr1/hashtable_policy.h:
+/usr/include/c++/4.6/hashtable_policy.h:
 
-/usr/include/c++/4.6/tr1/unordered_set.h:
+/usr/include/c++/4.6/unordered_set.h:
 
 housetile.h:
 

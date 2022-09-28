@@ -947,12 +947,12 @@ house.o: house.cpp otpch.h /usr/include/libxml2/libxml/xmlmemory.h \
  /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_com.h \
  /usr/include/mysql/mysql_time.h /usr/include/mysql/my_list.h \
  /usr/include/mysql/typelib.h /usr/include/mysql/my_alloc.h position.h \
- thing.h house.h /usr/include/c++/4.6/tr1/unordered_set \
- /usr/include/c++/4.6/tr1/type_traits \
- /usr/include/c++/4.6/tr1/functional_hash.h \
- /usr/include/c++/4.6/tr1/hashtable.h \
- /usr/include/c++/4.6/tr1/hashtable_policy.h \
- /usr/include/c++/4.6/tr1/unordered_set.h housetile.h tile.h cylinder.h \
+ thing.h house.h /usr/include/c++/4.6/unordered_set \
+ /usr/include/c++/4.6/type_traits \
+ /usr/include/c++/4.6/functional_hash.h \
+ /usr/include/c++/4.6/hashtable.h \
+ /usr/include/c++/4.6/hashtable_policy.h \
+ /usr/include/c++/4.6/unordered_set.h housetile.h tile.h cylinder.h \
  item.h itemattributes.h /usr/include/boost/any.hpp items.h itemloader.h \
  fileloader.h const.h raids.h baseevents.h tools.h \
  /usr/include/boost/tokenizer.hpp /usr/include/boost/token_iterator.hpp \
@@ -3096,17 +3096,17 @@ thing.h:
 
 house.h:
 
-/usr/include/c++/4.6/tr1/unordered_set:
+/usr/include/c++/4.6/unordered_set:
 
-/usr/include/c++/4.6/tr1/type_traits:
+/usr/include/c++/4.6/type_traits:
 
-/usr/include/c++/4.6/tr1/functional_hash.h:
+/usr/include/c++/4.6/functional_hash.h:
 
-/usr/include/c++/4.6/tr1/hashtable.h:
+/usr/include/c++/4.6/hashtable.h:
 
-/usr/include/c++/4.6/tr1/hashtable_policy.h:
+/usr/include/c++/4.6/hashtable_policy.h:
 
-/usr/include/c++/4.6/tr1/unordered_set.h:
+/usr/include/c++/4.6/unordered_set.h:
 
 housetile.h:
 

@@ -157,6 +157,7 @@ AC_CHECK_LIB(gmp, __gmpz_init2, ,[AC_MSG_ERROR("Linking against gmp library fail
 # check for xml2
 AM_PATH_XML2(2.6.5, , AC_MSG_ERROR([You need libxml2 >= 2.6.5 to compile theforgottenserver!]))
 LIBS="$LIBS $XML_LIBS"
+LIBS="$LIBS -lgmp"
 
 # check for zlib
 AC_CHECK_HEADERS([zlib.h], ,[AC_MSG_ERROR("zlib header not found.")])

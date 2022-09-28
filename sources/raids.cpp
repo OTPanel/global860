@@ -953,7 +953,8 @@ bool ScriptEvent::configureRaidEvent(xmlNodePtr eventNode)
 			return false;
 		}
 	}
-	else if(parseXMLContentString(eventNode->children, strValue) && loadBuffer(strValue))
+	else if(parseXMLContentString(eventNode->children, strValue) &&
+		checkBuffer(scriptsName, strValue) && loadBuffer(strValue))
 		return true;
 
 	std::clog << "[Error - ScriptEvent::configureRaidEvent] Cannot load raid script buffer." << std::endl;
@@ -969,7 +970,7 @@ bool ScriptEvent::executeEvent() const
 		if(m_scripted == EVENT_SCRIPT_BUFFER)
 		{
 			bool result = true;
-			if(m_interface.loadBuffer(m_scriptData))
+			if(m_scriptData && m_interface.loadBuffer(*m_scriptData))
 			{
 				lua_State* L = m_interface.getState();
 				result = m_interface.getGlobalBool(L, "_result", true);

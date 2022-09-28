@@ -1188,7 +1188,6 @@
 			bindOnlyGlobalAddress (previously bindOnlyConfiguredIpAddress)
 			rsaModulus
 			truncateLogOnStartup (previously truncateLogsOnStartup)
-			generateAccountSalt
 			tradeLimit
 			unifiedSpells
 			savePlayerData

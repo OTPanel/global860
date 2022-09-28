@@ -8,8 +8,6 @@ accountManager = true
     newPlayerLevel = 8
     newPlayerMagicLevel = 0
     generateAccountNumber = false
-    generateAccountSalt = false
-
 
     useRookSystem = false
     rookTownId = 1

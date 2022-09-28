@@ -1114,26 +1114,6 @@ uint32_t DatabaseManager::updateDatabase()
 		case 25:
 		{
 			std::clog << "> Updating database to version 26..." << std::endl;
-			switch(db->getDatabaseEngine())
-			{
-				case DATABASE_ENGINE_SQLITE:
-				{
-					query << "ALTER TABLE `accounts` ADD `salt` VARCHAR(40) NOT NULL DEFAULT '';";
-					break;
-				}
-
-				case DATABASE_ENGINE_MYSQL:
-				{
-					query << "ALTER TABLE `accounts` ADD `salt` VARCHAR(40) NOT NULL DEFAULT '' AFTER `password`;";
-					break;
-				}
-
-				default:
-					break;
-			}
-
-			db->query(query.str());
-			query.str("");
 
 			registerDatabaseConfig("db_version", 26);
 			return 26;

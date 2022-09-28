@@ -52,15 +52,14 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `flag` varchar(255) NOT NULL,
   `viptime` int(15) NOT NULL DEFAULT '0',
   `vip_time` int(15) NOT NULL DEFAULT '0',
-  `vipdays` int(15) NOT NULL DEFAULT '0',
-  `salt` varchar(255) NOT NULL DEFAULT ''
+  `vipdays` int(15) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `accounts`
 --
 
-INSERT INTO `accounts` (`id`, `name`, `password`, `premdays`, `lastday`, `email`, `key`, `blocked`, `warnings`, `group_id`, `page_lastday`, `email_new`, `email_new_time`, `created`, `rlname`, `location`, `page_access`, `email_code`, `next_email`, `premium_points`, `vote`, `last_post`, `flag`, `viptime`, `vip_time`, `vipdays`, `salt`) VALUES
+INSERT INTO `accounts` (`id`, `name`, `password`, `premdays`, `lastday`, `email`, `key`, `blocked`, `warnings`, `group_id`, `page_lastday`, `email_new`, `email_new_time`, `created`, `rlname`, `location`, `page_access`, `email_code`, `next_email`, `premium_points`, `vote`, `last_post`, `flag`, `viptime`, `vip_time`, `vipdays`) VALUES
 (1, '1', '356a192b7913b04c54574d18c28d46e6395428ab', 65535, 0, 'hjuhf@hotmail.com', 'cd3aacdb0a47c2067fed', 0, 0, 1, 1275095419, '', 0, 0, '', '', 3, '0', 0, 0, 0, 1274912789, '', 0, 0, 0, ''),
 (2, '252528', 'c59b288546e1e1ef9e7728200a33f364bf592f10', 0, 0, '', '0', 0, 0, 1, 0, '', 0, 0, '', '', 0, '0', 0, 0, 0, 0, '', 0, 0, 0, '3I93RL98SczqDYgXI6C-WbP57dobOTGSFG57aSm'),
 (3, '363639', '3ec8fbe5372d95fc9ade5266f182bbbc2c2b199d', 0, 0, '', '0', 0, 0, 1, 0, '', 0, 0, '', '', 0, '0', 0, 0, 0, 0, '', 0, 0, 0, ''),

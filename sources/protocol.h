@@ -19,6 +19,7 @@
 #define __PROTOCOL__
 #include "otsystem.h"
 #include "connection.h"
+#include "rsa.h"
 
 class OutputMessage;
 class Connection;
@@ -69,6 +70,7 @@ class Protocol : boost::noncopyable
 		void XTEA_encrypt(OutputMessage& msg);
 		bool XTEA_decrypt(NetworkMessage& msg);
 		bool RSA_decrypt(NetworkMessage& msg);
+		bool RSA_decrypt(RSA* rsa, NetworkMessage& msg);
 
 		virtual void releaseProtocol();
 		virtual void deleteProtocolTask();
